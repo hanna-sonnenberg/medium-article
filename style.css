@@ -1,0 +1,66 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  height: 100%;
+  margin: 0;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1502252430442-aac78f397426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.banner-container {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.banner-container h1 {
+  font-weight: lighter;
+}
+
+.banner-container p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 32px;
+  padding-top: 25px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.content-container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.content-container h3 {
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(47, 79, 79);
+}
+
+.content-container a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(47, 79, 79);
+}
+
+.content-container a:hover {
+  background-color: rgb(47, 79, 79);
+  color: white;
+}
+
+/* Media queries */
+@media (max-width: 720px) {
+  .content-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .content-container {
+    width: 300px;
+  }
+}
